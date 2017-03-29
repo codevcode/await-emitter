@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+.env
+
+# Sublime Text file
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,45 @@
+{
+  "name": "emitter",
+  "version": "0.1.0",
+  "description": "add `finish` method on node EventEmitter for waiting all aync listeners to finish",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run linter && npm run mocha",
+    "mocha": "mocha ./src/**/*spec.js --opts ./tests/mocha-frontend.opts",
+    "mocha-dev": "mocha ./src/**/*spec.js --opts ./tests/mocha-frontend.opts --watch --bail",
+    "linter": "eslint src --fix --format tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevcode/emitter.git"
+  },
+  "keywords": [
+    "events",
+    "emitter",
+    "EventEmitter",
+    "async",
+    "wait",
+    "listener",
+    "done",
+    "Promise"
+  ],
+  "author": "Hsieh, Chang-Hsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codevcode/emitter/issues"
+  },
+  "homepage": "https://github.com/codevcode/emitter#readme",
+  "dependencies": {
+    "events": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
