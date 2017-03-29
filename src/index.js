@@ -1,3 +1,9 @@
 const Emitter = require('events')
 
-module.exports = Emitter
+class CodevEmitter extends Emitter {
+  constructor () {
+    super()
+  }
+}
+
+module.exports = CodevEmitter
