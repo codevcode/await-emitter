@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint', // for lint Babel code, like async/await
   env: {
     mocha: true,
   },

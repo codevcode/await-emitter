@@ -2,15 +2,12 @@
 
 module.exports = {
   parserOptions: {
-    ecmaVersion: 7,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    ecmaVersion: 6,
   },
   env: {
     node: true,
     browser: true,
+    es6: true,
   },
   extends: 'eslint:recommended',
   rules: {
@@ -20,6 +17,5 @@ module.exports = {
     'space-before-function-paren': ['error', 'always'],
     'func-names': 'error',
     'prefer-arrow-callback': 'error' ,
-    'no-underscore-dangle': ['error', { allow: ['_id'] }],
   },
 }
