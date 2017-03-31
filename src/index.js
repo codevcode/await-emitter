@@ -8,6 +8,8 @@ class CodevEmitter extends Emitter {
   finish (type, ...args) {
     // Refer the process of `Emitter.emit` to rewrite
 
+    // TODO handle error event
+
     // CORE, call the listeners and wait them to finish
     const listeners = this.listeners(type)
     return Promise.all(listeners.map(l => l(...args)))
