@@ -1,6 +1,6 @@
 {
-  "name": "emitter",
-  "version": "0.1.0",
+  "name": "codev-emitter",
+  "version": "1.0.0",
   "description": "add `finish` method on node EventEmitter for waiting all aync listeners to finish",
   "main": "src/index.js",
   "scripts": {
