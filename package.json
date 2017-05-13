@@ -1,5 +1,5 @@
 {
-  "name": "codev-emitter",
+  "name": "await-emitter",
   "version": "1.0.0",
   "description": "add `finish` method on node EventEmitter for waiting all aync listeners to finish",
   "main": "src/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codevcode/emitter.git"
+    "url": "git+https://github.com/codevcode/await-emitter.git"
   },
   "keywords": [
     "events",
     "emitter",
     "EventEmitter",
     "async",
-    "wait",
+    "await",
     "listener",
     "done",
     "Promise"
@@ -26,9 +26,9 @@
   "author": "Hsieh, Chang-Hsi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codevcode/emitter/issues"
+    "url": "https://github.com/codevcode/await-emitter/issues"
   },
-  "homepage": "https://github.com/codevcode/emitter#readme",
+  "homepage": "https://github.com/codevcode/await-emitter#readme",
   "dependencies": {
     "events": "^1.1.1"
   },
