@@ -1,6 +1,6 @@
 {
   "name": "await-emitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add `finish` method on node EventEmitter for waiting all aync listeners to finish",
   "main": "src/index.js",
   "scripts": {
